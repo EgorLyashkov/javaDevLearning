@@ -1,7 +1,7 @@
-package animals_project.mammals;
+package animals_project_decorator.mammals;
 
-import animals_project.base.Animal;
-import animals_project.common.enn.AnimalEnn;
+import animals_project_decorator.base.Animal;
+import animals_project_decorator.common.enn.AnimalEnn;
 
 public class Bear extends Animal {
 

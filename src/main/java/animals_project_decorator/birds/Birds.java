@@ -1,7 +1,6 @@
-package animals_project.birds;
+package animals_project_decorator.birds;
 
-import animals_project.base.Animal;
-import animals_project.base.AnimalDecorator;
+import animals_project_decorator.base.Animal;
 
 public class Birds extends Animal {
 

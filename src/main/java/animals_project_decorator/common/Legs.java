@@ -1,8 +1,8 @@
-package animals_project.common;
+package animals_project_decorator.common;
 
-import animals_project.base.Animal;
-import animals_project.base.AnimalDecorator;
-import animals_project.common.filling.LegsFilling;
+import animals_project_decorator.base.Animal;
+import animals_project_decorator.base.AnimalDecorator;
+import animals_project_decorator.common.filling.LegsFilling;
 
 public class Legs extends AnimalDecorator {
 

@@ -1,7 +1,7 @@
-package animals_project.common.filling;
+package animals_project_decorator.common.filling;
 
-import animals_project.common.enn.AnimalEnn;
-import animals_project.common.enn.FoodEnn;
+import animals_project_decorator.common.enn.AnimalEnn;
+import animals_project_decorator.common.enn.FoodEnn;
 
 public class FoodFilling {
     private String value;

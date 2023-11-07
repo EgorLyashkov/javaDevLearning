@@ -1,10 +1,8 @@
-package animals_project.common.filling;
+package animals_project_decorator.common.filling;
 
-import animals_project.common.enn.AnimalEnn;
+import animals_project_decorator.common.enn.AnimalEnn;
 
-import java.util.List;
-
-import static animals_project.common.enn.AnimalEnn.*;
+import static animals_project_decorator.common.enn.AnimalEnn.*;
 
 public class ColorFilling {
 

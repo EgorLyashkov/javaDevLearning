@@ -1,4 +1,4 @@
-package animals_project.common.enn;
+package animals_project_decorator.common.enn;
 
 public enum FoodEnn {
 

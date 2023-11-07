@@ -1,8 +1,8 @@
-package animals_project.common;
+package animals_project_decorator.common;
 
-import animals_project.base.Animal;
-import animals_project.base.AnimalDecorator;
-import animals_project.common.filling.SoundFilling;
+import animals_project_decorator.base.Animal;
+import animals_project_decorator.base.AnimalDecorator;
+import animals_project_decorator.common.filling.SoundFilling;
 
 public class Sound extends AnimalDecorator {
 
