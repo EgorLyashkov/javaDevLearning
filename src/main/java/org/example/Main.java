@@ -11,6 +11,7 @@ import animals_project_decorator.common.Legs;
 import animals_project_decorator.common.Sound;
 import animals_project_decorator.mammals.Bear;
 import animals_project_decorator.mammals.Cat;
+import calculator_project.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -59,6 +60,18 @@ public class Main {
 
         System.out.println(factory.getAnotherAnimal(AnimalEnn.BEAR, ", он Бурого цвета", ", а кушать любит рыбу"));
 
+
+        Calculator addition = new Addition();
+        addition.getResult(10, "+", 10);
+
+        Calculator division = new Division();
+        division.getResult(10, "/", 10);
+
+        Calculator multiplication = new Multiplication();
+        multiplication.getResult(10, "*", 10);
+
+        Calculator subtraction = new Subtraction();
+        subtraction.getResult(10, "-", 10);
 
     }
 
