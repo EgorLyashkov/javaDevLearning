@@ -1,15 +1,16 @@
 package org.example;
 
-import animals_project.aqua.Shark;
-import animals_project.base.Animal;
-import animals_project.common.Color;
-import animals_project.common.Food;
-import animals_project.common.Legs;
-import animals_project.common.Sound;
-import animals_project.mammals.Bear;
-import animals_project.mammals.Cat;
-import math.MathPrograms;
-import bank_contribution.DepositCalculation;
+import animal_project_base.common.enn.ActionEnn;
+import animal_project_base.common.enn.AnimalEnn;
+import animal_project_base.common.factory.AnimalFactory;
+import animals_project_decorator.aqua.Shark;
+import animals_project_decorator.base.Animal;
+import animals_project_decorator.common.Color;
+import animals_project_decorator.common.Food;
+import animals_project_decorator.common.Legs;
+import animals_project_decorator.common.Sound;
+import animals_project_decorator.mammals.Bear;
+import animals_project_decorator.mammals.Cat;
 
 public class Main {
     public static void main(String[] args) {
@@ -28,7 +29,7 @@ public class Main {
 
         depositCalculation.calculating();
         */
-        Animal bear = new Bear();
+        /*Animal bear = new Bear();
         bear = new Legs(bear);
         bear = new Food(bear);
         bear = new Sound(bear);
@@ -50,7 +51,14 @@ public class Main {
         shark = new Sound(shark);
         shark = new Color(shark);
 
-        System.out.println(shark.getName() + "\n" + shark.getDescription() + "\n");
+        System.out.println(shark.getName() + "\n" + shark.getDescription() + "\n");*/
+
+        AnimalFactory factory = new AnimalFactory();
+
+        System.out.println(factory.getAnimal(AnimalEnn.BEAR, ", он Бурого цвета", ", а кушать любит рыбу"));
+
+        System.out.println(factory.getAnotherAnimal(AnimalEnn.BEAR, ", он Бурого цвета", ", а кушать любит рыбу"));
+
 
     }
 

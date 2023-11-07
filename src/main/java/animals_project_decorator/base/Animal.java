@@ -1,4 +1,4 @@
-package animals_project.base;
+package animals_project_decorator.base;
 
 public abstract class Animal {
 
